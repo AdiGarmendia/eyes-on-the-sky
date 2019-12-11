@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: ghostwhite;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__Bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fc3d21;
+  border: 20px solid #0b3d91;
+  padding: 10px;
+  margin: 5px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.container__Photos {
+  display: flex;
+  flex-direction: row;
+}
+
+.marsPhotoList {
+  display: flex;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+}
+
+.dailyPhotoList {
+  display: flex;
+  flex-basis: 50%;
+}
+
+.photo {
+  border: 6px solid #0b3d91;
+  padding: 2px;
+  margin: 2px;
+}
+
+.photoMars {
+  max-width: 75px;
+}
+
+.dailyPhoto {
+  max-width: 100%;
+}
